@@ -1,5 +1,5 @@
 # Cricket-Data-Analysis-Pipeline
-Building a cricket data analysis application leveraging Google Cloud Platform.
+Building a cricket data analysis application to get familiarized with building blocks for an ETL pipeline in the Google Cloud environment.
 
 # Architecture
 ![Architecture](images/architecture.jpeg)
