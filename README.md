@@ -2,7 +2,7 @@
 Building a cricket data analysis application leveraging Google Cloud Platform.
 
 # Architecture
-![Architecture] (https://github.com/ninadnale/Cricket-Data-Analysis-Pipeline/tree/289548d6adbf2cc27486ae4847c991f05a70b09c/images/architecture.jpeg)
+![Architecture] (https://github.com/ninadnale/Cricket-Data-Analysis-Pipeline/blob/master/images/architecture.jpeg)
 
 # Data Extraction & Storage
 In the extract phase of this project, I have created a scheduled job using Airflow in a **Google Cloud Composer** environment. This triggers a python script (refer extract_stats.py), which fetches the statistics by hitting the cricbuzz API everyday. This data is extracted and stored by the same python script to the **Google Cloud Storage (GCS)**. The data is stored in a storage bucket in CSV format. This ensures scalability and accessibility for future processing.
